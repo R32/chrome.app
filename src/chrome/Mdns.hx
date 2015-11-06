@@ -2,6 +2,13 @@ package chrome;
 
 import chrome.Events;
 
+/**
+在组播DNS上查询主机 
+
+可用版本: chrome 31
+
+权限: "mdns"
+*/
 @:require(chrome_app)
 @:native("chrome.mdns")
 extern class Mdns {

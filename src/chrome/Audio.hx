@@ -18,6 +18,13 @@ typedef InputInfo = {
 	var gain : Float;
 }
 
+/**
+允许用户获取连接到系统的音频设备信息，并控制它们。目前该 API 仅在 Chrome OS 上实现
+
+可用版本: 仅用于 Dev 分支
+
+权限: "audio"
+*/
 @:require(chrome_app)
 @:require(chrome_dev)
 @:native("chrome.audio")
